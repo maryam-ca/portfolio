@@ -13,11 +13,10 @@
 
 <div class="cur-wrap" id="curWrap">
   <div class="cur-halo" id="curHalo"></div>
-  <div class="cur-orbit" id="curOrbit"><span></span><span></span><span></span></div>
+  <div class="cur-orbit" id="curOrbit"></div>
   <div class="cur-core" id="curCore"></div>
 </div>
-<div class="cur-trail" id="curTrail">
-  <span></span><span></span><span></span><span></span><span></span>
+<div class="cur-trail" id="curTrail"><span></span><span></span><span></span>
 </div>
 <div class="cur-ring2" id="curRing2"></div>
 <div class="cur-label" id="curLabel"></div>
@@ -25,7 +24,7 @@
 <div class="progress-track"><div class="progress-fill"></div></div>
 
 <nav class="topnav">
-  <a href="index.html" class="logo">MF<span>://</span></a>
+  <a href="index.html" class="logo"><span class="logo-Maryam Fatima">Maryam Fatima</span><span class="logo-slash">//</span></a>
   <ul class="navlinks" id="navLinks">
     <li><a href="index.html"><span class="nav-dot"></span> Home <span class="nav-num">01</span></a></li>
     <li><a href="about.html"><span class="nav-dot"></span> About <span class="nav-num">02</span></a></li>
@@ -45,24 +44,99 @@
   <div class="container">
     <div class="eyebrow">07 &mdash; Contact</div>
     <div class="sec-head">
-      <h2>Let's<br>connect.</h2>
-      <p>Open to internships, collaborations and interesting conversations.</p>
+      <h2>Get In Touch.<br>Let's build<br>something real.</h2>
+      <p>Open to internships, junior roles, freelance collaborations &mdash; or just a good conversation about AI and software.</p>
     </div>
     <div class="contact-panel">
-      <div class="terminal">
-        <div><span class="p1">maryam@portfolio</span><span class="p2">:~$</span> whoami</div>
-        <div class="out">Maryam Fatima &mdash; AI/ML Intern</div>
-        <div style="margin-top:10px;"><span class="p1">maryam@portfolio</span><span class="p2">:~$</span> location</div>
-        <div class="out">Attock, Punjab, Pakistan</div>
-        <div style="margin-top:10px;"><span class="p1">maryam@portfolio</span><span class="p2">:~$</span> status</div>
-        <div class="out">open to internships &amp; collaborations</div>
-        <div style="margin-top:10px;"><span class="p1">maryam@portfolio</span><span class="p2">:~$</span> <span class="blink"></span></div>
+      <div class="contact-form-wrap">
+        <div class="terminal">
+          <div><span class="p1">maryam@portfolio</span><span class="p2">:~$</span> whoami</div>
+          <div class="out">Maryam Fatima &mdash; AI/ML Intern</div>
+          <div style="margin-top:10px;"><span class="p1">maryam@portfolio</span><span class="p2">:~$</span> location</div>
+          <div class="out">Attock, Punjab, Pakistan</div>
+          <div style="margin-top:10px;"><span class="p1">maryam@portfolio</span><span class="p2">:~$</span> status</div>
+          <div class="out">open to internships &amp; collaborations</div>
+          <div style="margin-top:10px;"><span class="p1">maryam@portfolio</span><span class="p2">:~$</span> <span class="blink"></span></div>
+        </div>
+        <form class="contact-form" onsubmit="return false;">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your full name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Tell me about the opportunity or project..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-solid magnetic"><i class="fas fa-paper-plane"></i> Send Message</button>
+          <p class="form-note">This form is a static demo &mdash; connect it to a backend (e.g. Formspree, EmailJS) or wire it to a mail API to make it live.</p>
+        </form>
       </div>
-      <div class="contact-links">
-        <a href="mailto:mminhas1405@gmail.com"><span>mminhas1405@gmail.com</span><i class="fas fa-envelope"></i></a>
-        <a href="https://www.linkedin.com/in/maryamfatima-2a1325354" target="_blank"><span>LinkedIn Profile</span><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://github.com" target="_blank"><span>GitHub</span><i class="fab fa-github"></i></a>
-        <a href="https://devpost.com" target="_blank"><span>Devpost</span><i class="fas fa-laptop-code"></i></a>
+      <div class="contact-sidebar">
+        <div class="contact-card">
+          <h3>Connect With Me</h3>
+          <div class="contact-links-vertical">
+            <a href="mailto:mminhas1405@gmail.com" class="contact-link-item">
+              <span class="cl-icon"><i class="fas fa-envelope"></i></span>
+              <span class="cl-text">
+                <span class="cl-label">Email</span>
+                <span class="cl-value">mminhas1405@gmail.com</span>
+              </span>
+            </a>
+            <a href="https://github.com/maryam-ca" target="_blank" class="contact-link-item">
+              <span class="cl-icon"><i class="fab fa-github"></i></span>
+              <span class="cl-text">
+                <span class="cl-label">GitHub</span>
+                <span class="cl-value">github.com/maryam-ca</span>
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/maryam-fatima-2a1325354/" target="_blank" class="contact-link-item">
+              <span class="cl-icon"><i class="fab fa-linkedin-in"></i></span>
+              <span class="cl-text">
+                <span class="cl-label">LinkedIn</span>
+                <span class="cl-value">linkedin.com/in/maryam-fatima</span>
+              </span>
+            </a>
+            <a href="https://medium.com/@mminhas1405" target="_blank" class="contact-link-item">
+              <span class="cl-icon"><i class="fab fa-medium"></i></span>
+              <span class="cl-text">
+                <span class="cl-label">Medium</span>
+                <span class="cl-value">medium.com/@mminhas1405</span>
+              </span>
+            </a>
+            <a href="https://devpost.com/mminhas1405" target="_blank" class="contact-link-item">
+              <span class="cl-icon"><i class="fas fa-laptop-code"></i></span>
+              <span class="cl-text">
+                <span class="cl-label">Devpost</span>
+                <span class="cl-value">devpost.com/mminhas1405</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <h3>Follow Me</h3>
+          <div class="contact-socials">
+            <a href="https://github.com/maryam-ca" target="_blank" class="social-pill"><i class="fab fa-github"></i> GH</a>
+            <a href="https://www.linkedin.com/in/maryam-fatima-2a1325354/" target="_blank" class="social-pill"><i class="fab fa-linkedin-in"></i> IN</a>
+            <a href="https://medium.com/@mminhas1405" target="_blank" class="social-pill"><i class="fab fa-medium"></i> MD</a>
+            <a href="https://devpost.com/mminhas1405" target="_blank" class="social-pill"><i class="fas fa-laptop-code"></i> DP</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <h3>Quick Contact</h3>
+          <div class="contact-links-vertical">
+            <a href="tel:+923069383425" class="contact-link-item">
+              <span class="cl-icon"><i class="fas fa-phone"></i></span>
+              <span class="cl-text">
+                <span class="cl-label">Phone</span>
+                <span class="cl-value">+92 306 938 3425</span>
+              </span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
